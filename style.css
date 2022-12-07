@@ -1,0 +1,62 @@
+@font-face {
+    font-family: font2;
+    src: url(pixels.ttf);
+}
+.banner
+{
+    width: 100%;
+    height: 200vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner video
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.banner .content
+{
+position: absolute;
+top: 100px;
+z-index: 1;
+max-width: 1000px;
+margin: 0 auto;
+text-align:  center;
+color: white;
+font-size: 20px;
+font-family: font2;
+}
+.banner .content2
+{
+position: absolute;
+top: 300px;
+right: 800px;
+max-width: 2000px;
+max-height: 2000px;
+margin: 0 auto;
+text-align:  left;
+color: white;
+font-size: 18px;
+font-family: font2;
+}
+.banner .content3
+{
+position: relative;
+top: 50px;
+max-width: 2000px;
+max-height: 2000px;
+margin: 0 auto;
+text-align:  left;
+color: white;
+font-size: 18px;
+font-family: font2;
+}
+
+
